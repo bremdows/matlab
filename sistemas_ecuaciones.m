@@ -1,0 +1,4 @@
+% SOLUCIÓN DE UN SISTEMAS DE ECUACIONES 2X2
+A = [3, 2; -2, 1];
+B = [13; 10];
+X = inv(A)*B;

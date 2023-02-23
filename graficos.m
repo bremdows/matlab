@@ -1,0 +1,29 @@
+% creando un arreglo de valores con una diferencia entre números de 0.1
+T = [0: 0.1 : 10];
+% OBTIENE EL SEN(t) PARA CADA VALOR DE ARREGLO T
+X = sin(T);
+% GRAFICANDO CON PLOT
+
+A = [2, 9, 19, 10];
+B = [0, 5, 1, 25];
+
+% A: ES COMO SI FUESE EL DOMINIO
+% B: ES EL RANGo
+
+% AL GRAFICAR CADA VALOR DE A SE CORRESPONDE CON B
+% POR LO TANTO CADA ARREGLO DEBEN TENER EL MISMO TAMAÑO
+plot(A, B, 'g');
+
+%  ===== LAS CONFIGURACIONES SE AGREGAN DESPUES DEL COMANDO PLOT % 
+
+% AGREGAR UN TITULO
+title("RESULTADOS");
+
+% AGREGAR UN ETIQUETA AL EJE X
+xlabel("Voltaje [V]");
+
+% AGREGAR UN ETIQUETA AL EJE Y
+ylabel("Corriente [mA]");
+
+% ACTIVAR LA GRILLA
+grid on
