@@ -4,6 +4,16 @@ B = [7, 8, 9; 10, 11, 12];
 
 D = A + C;
 
+% OBTENER EL TAMAÑO DE UNA MATRIZ
+% length
+% RETORNA LA CANTIDAD DE ELEMENTOS
+longitud = length(A);
+
+% size
+% retorna las dimensiones de la matriz
+% para este caso 3x3
+tamanio = size(A);
+
 % MULTIPLICACION DE MATRICES
 X = [4, 5, 12; 50, 4, 12];
 Y = [1; 71; 200];
